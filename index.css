@@ -1,0 +1,18 @@
+@import url("_style/header.css");
+
+:root {
+    --cor-preto: #000000;
+    --cor-branco: #FFFFFF;
+    --cor-azul-bebe: #57A7DB;
+    --cor-vermelho: #FF0000;
+    --fonte-principal: 'roboto';
+}
+
+body {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 10em;
+}

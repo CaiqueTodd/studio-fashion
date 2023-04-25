@@ -1,0 +1,37 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    text-align: center;
+}
+
+.cabecalho__lista {
+    display: flex;
+    gap: 3em;
+    text-align: center;
+}
+
+.cabecalho__item {
+    text-transform: uppercase;
+}
+
+.cabecalho__link {
+    color: var(--cor-branco);
+}
+
+.cabecalho__login {
+    display: flex;
+    gap: 1em;
+}
+
+.cabecalho__login__entrar {
+    color: var(--cor-branco);
+}
+
+.cabecalho__login__registrar-se {
+    background-color: var(--cor-azul-bebe);
+    border-radius: 8px;
+    padding: 0.1em;
+    color: var(--cor-branco);
+    font-weight: bold;
+}
