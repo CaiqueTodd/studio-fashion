@@ -5,6 +5,11 @@
     text-align: center;
 }
 
+.cabecalho__navegacao {
+    display: flex;
+    gap: 2em;
+}
+
 .cabecalho__lista {
     display: flex;
     gap: 3em;
